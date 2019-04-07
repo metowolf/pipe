@@ -1,5 +1,5 @@
 const crypto = require('crypto')
-const config = require('../../config')
+const config = require('../config')
 
 const algorithm = 'aes-256-gcm'
 const password = crypto.scryptSync(config.public.password, 'salt', 32)

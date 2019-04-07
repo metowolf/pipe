@@ -12,8 +12,8 @@
     "ws": "^6.2.1"
   },
   "scripts": {
-    "relay": "node relay",
-    "client": "node client",
-    "server": "node server"
+    "relay": "node src/relay",
+    "client": "node src/client",
+    "server": "node src/server"
   }
 }

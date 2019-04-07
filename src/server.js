@@ -2,8 +2,8 @@ const config = require('./config')
 
 const Socks5 = require('@heroku/socksv5')
 
-const Pipe = require(`./src/pipe/${config.public.pipe.type}`)
-const crypto = require(`./src/crypto/${config.public.pipe.crypto}`)
+const Pipe = require(`./pipe/${config.public.pipe.type}`)
+const crypto = require(`./crypto/${config.public.pipe.crypto}`)
 
 const socks5 = Socks5.createServer()
 socks5.useAuth(Socks5.auth.None())
