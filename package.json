@@ -9,7 +9,7 @@
     "@heroku/socksv5": "^0.0.9",
     "dotenv": "^7.0.0",
     "frap": "^1.1.0",
-    "ws": "^6.2.1"
+    "ws": "^7.4.6"
   },
   "scripts": {
     "relay": "node src/relay",
